@@ -101,44 +101,6 @@ CodeAlpha_CreditScoringModel/
 
 ---
 
-## 🔧 Installation & Usage
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/mimicodegirl-26/CodeAlpha_CreditScoringModel.git
-cd CodeAlpha_CreditScoringModel
-```
-
-**2. Set up a virtual environment & install dependencies**
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-**3. (Optional) Download the dataset**
-The dataset is already included in `data/`. If you need to re‑download:
-```bash
-Invoke-WebRequest -Uri "https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data" -OutFile "data/german_credit.csv"
-```
-
-**4. Run the training/evaluation script**
-```bash
-python credit_scoring.py
-```
-This will generate all plots and save the best model into `models/`.
-
-**5. Launch the Streamlit demo**
-```bash
-streamlit run app.py
-```
-Open `http://localhost:8501` in your browser.
-
----
 
 ## 🧠 Key Learnings
 
@@ -162,9 +124,9 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - UCI Machine Learning Repository for the dataset.
 - Open‑source libraries: Scikit‑learn, XGBoost, SHAP, Streamlit.
 
----
+
 
 <p align="center">
   Made with ❤️ as part of the CodeAlpha Machine Learning Internship
 </p>
-```
+
