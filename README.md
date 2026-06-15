@@ -1,6 +1,3 @@
-Here’s a polished, eye‑catching README for your repository — just copy‑paste it into `README.md`, commit, and push.
-
-```markdown
 # 💳 Credit Scoring Model — CodeAlpha ML Internship
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
